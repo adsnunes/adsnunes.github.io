@@ -1,3 +1,5 @@
 theme: jekyll-theme-minimal
 title: Anderson Nunes
-description: Bookmark this to keep an eye on my project updates!
+description: Notes on Agentic AI, Scientific Computing, and Engineering.
+author: Anderson Nunes
+permalink: /:year/:month/:day/:title/
