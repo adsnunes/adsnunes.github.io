@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How I Actually Use AI in My PhD: A Practical Guide"
-date: 2026-09-17 20:30:00 -0300
+date: 2026-09-17 20:20:00 -0300
 author: Anderson Nunes
 tags: [phd, artificial-intelligence, research, mechanical-engineering, productivity]
 ---
