@@ -30,4 +30,16 @@ My research and engineering efforts focus on the intersection of **computational
 
 - **Scientific Computing & Solvers:** Numerical modeling, Monte Carlo methods, and transport phenomena.
 - **Agentic AI & Tool Systems:** Autonomous agent harnesses, structured memory integration, and MCP servers.
-- **Open Source:** Find my projects and source code on [GitHub (@adsnunes)](https://github.com/adsnunes).
+
+---
+
+## Connect & Profiles
+
+Find me across the web:
+
+- 🔬 **ResearchGate:** [Anderson Nunes De Sousa](https://www.researchgate.net/profile/Anderson-Nunes-De-Sousa-2)
+- 💼 **LinkedIn:** [in/adsnunes](https://br.linkedin.com/in/adsnunes)
+- 💻 **GitHub:** [@adsnunes](https://github.com/adsnunes)
+- 𝕏 **X (Twitter):** [@adsnunes_](https://x.com/adsnunes_)
+- 🐘 **IndieWeb / Mastodon:** [@thinkpad@indieweb.social](https://indieweb.social/@thinkpad)
+- 💬 **WhatsApp:** [wa.me/adsnunes_](https://wa.me/adsnunes_)
