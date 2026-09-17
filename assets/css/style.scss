@@ -3,20 +3,21 @@
 
 @import "{{ site.theme }}";
 
-/* Custom Lateral / Sidebar Navigation Menu */
+/* Minimalist Lateral Navigation */
 .sidebar-nav {
   margin-top: 24px;
-  padding-top: 18px;
+  padding-top: 16px;
   border-top: 1px solid #eaecef;
 }
 
-.sidebar-nav h3 {
-  font-size: 12px;
-  font-weight: 700;
+.sidebar-nav-title {
+  display: block;
+  font-size: 11px;
+  font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: 0.8px;
-  color: #586069;
-  margin: 0 0 12px 0;
+  letter-spacing: 1px;
+  color: #8c8c8c;
+  margin-bottom: 10px;
 }
 
 .sidebar-nav ul.nav-links {
@@ -29,7 +30,7 @@
   border: none !important;
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 5px;
 }
 
 .sidebar-nav ul.nav-links li {
@@ -42,38 +43,30 @@
 }
 
 .sidebar-nav ul.nav-links li a {
-  display: flex !important;
-  align-items: center !important;
-  gap: 10px !important;
-  padding: 8px 12px !important;
-  background-color: #f6f8fa;
-  border: 1px solid #e1e4e8;
-  border-radius: 8px;
-  color: #24292e !important;
+  display: inline-block !important;
+  padding: 2px 0 !important;
+  color: #586069 !important;
   font-size: 13.5px !important;
-  font-weight: 500 !important;
   text-decoration: none !important;
-  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+  transition: color 0.15s ease, transform 0.15s ease;
+  border: none !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
 }
 
 .sidebar-nav ul.nav-links li a:hover {
-  background-color: #0366d6 !important;
-  border-color: #0366d6 !important;
-  color: #ffffff !important;
+  color: #0366d6 !important;
+  text-decoration: underline !important;
+  background: transparent !important;
+  box-shadow: none !important;
   transform: translateX(3px);
-  box-shadow: 0 2px 5px rgba(3, 102, 214, 0.25);
-}
-
-.sidebar-nav ul.nav-links li a .nav-icon {
-  font-size: 15px;
-  line-height: 1;
 }
 
 @media (max-width: 768px) {
   .sidebar-nav ul.nav-links {
-    display: grid !important;
-    grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)) !important;
-    gap: 8px !important;
+    flex-direction: row !important;
+    flex-wrap: wrap !important;
+    gap: 14px !important;
   }
 }
